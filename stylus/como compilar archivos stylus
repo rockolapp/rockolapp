@@ -1,0 +1,32 @@
+para instalar stylus primero instalar node.js y despues en consola como administrador ejecutar el siguiete comando:
+
+npm installa -g stylus
+:::::::::::::::::::::
+para compilar un archivo stylus
+
+abrir consola de node.js y ejecutar el comanto stylus
+
+irse a la carpeta stylus de tu proyecto :
+
+C:\wamp\www\GitHub\rockolapp>stylus -c -o css/ stylus/estilos.styl
+
+regresar a la carpeta raiz con cd ..
+
+Y/O para crearlo en la carpeta css
+C:\wamp\www\GitHub\rockolapp>stylus -c -o css/ stylus/estilos.styl
+:::::::::::::::::::::::::::::::::::
+para no estar estar compilando cada vez que se modifique el archivo hay que hacer que stylus escuche o sincronice los cambios ejecutando el siguiente comando
+
+
+C:\wamp\www\GitHub\rockolapp>stylus -c -w -o css/ stylus/estilos.styl
+::::::::::::::::::::::::::::::::::::::::::
+
+
+INSTALAR NIB
+para instalar nib de forma global  abrir cmd como administrador y teclear el siguiente comando
+
+npm  installa nib -g
+
+y ahora a compilar los archivos css de stylos de esta forma en la consola de node.js
+
+C:\wamp\www\GitHub\rockolapp>stylus -u nib -c -w -o css/ stylus/estilos.styl

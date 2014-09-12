@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?w6ldzm');
+	src:url('../fonts/icomoon.eot?#iefixw6ldzm') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?w6ldzm') format('woff'),
+		url('../fonts/icomoon.ttf?w6ldzm') format('truetype'),
+		url('../fonts/icomoon.svg?w6ldzm#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sfotipy:before {
+	content: "\e600";
+}
+.icon-menu:before {
+	content: "\e601";
+}
+.icon-send:before {
+	content: "\e602";
+}
+.icon-add:before {
+	content: "\e603";
+}
+.icon-block:before {
+	content: "\e604";
+}
+.icon-cajita:before {
+	content: "\e605";
+}
+.icon-like:before {
+	content: "\e606";
+}
+.icon-next:before {
+	content: "\e607";
+}
+.icon-play:before {
+	content: "\e608";
+}
+.icon-randon:before {
+	content: "\e609";
+}
+.icon-search:before {
+	content: "\e60a";
+}
+.icon-send2:before {
+	content: "\e60b";
+}
+.icon-user:before {
+	content: "\e60c";
+}
+.icon-vol:before {
+	content: "\e60d";
+}
+.icon-vol_down:before {
+	content: "\e60e";
+}
+.icon-prev:before {
+	content: "\e60f";
+}
+.icon-left:before {
+	content: "\e610";
+}
+.icon-stop:before {
+	content: "\e611";
+}
