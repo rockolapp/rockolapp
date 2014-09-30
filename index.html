@@ -120,66 +120,8 @@
             <a href="" class="action icon-like gray"></a>
             </span>            
          </li>
-         <li class="item border-bottom">
-            <span>
-               Marilyn Monroe
-            </span>
-            <span class="right">
-               <a href="" class="action icon-add gray"></a>
-            <a href="" class="action icon-cajita gray"></a>
-            <a href="" class="action icon-like gray"></a>
-            </span>            
-         </li>
-         <li class="item border-bottom">
-            <span>
-               Marilyn Monroe
-            </span>
-            <span class="right">
-               <a href="" class="action icon-add gray"></a>
-            <a href="" class="action icon-cajita gray"></a>
-            <a href="" class="action icon-like gray"></a>
-            </span>            
-         </li>
-         <li class="item border-bottom">
-            <span>
-               Marilyn Monroe
-            </span>
-            <span class="right">
-               <a href="" class="action icon-add gray"></a>
-            <a href="" class="action icon-cajita gray"></a>
-            <a href="" class="action icon-like gray"></a>
-            </span>            
-         </li>
-         <li class="item border-bottom">
-            <span>
-               Marilyn Monroe
-            </span>
-            <span class="right">
-               <a href="" class="action icon-add gray"></a>
-            <a href="" class="action icon-cajita gray"></a>
-            <a href="" class="action icon-like gray"></a>
-            </span>            
-         </li>
-         <li class="item border-bottom">
-            <span>
-               Marilyn Monroe
-            </span>
-            <span class="right">
-               <a href="" class="action icon-add gray"></a>
-            <a href="" class="action icon-cajita gray"></a>
-            <a href="" class="action icon-like gray"></a>
-            </span>            
-         </li>
-         <li class="item border-bottom">
-            <span>
-               Marilyn Monroe
-            </span>
-            <span class="right">
-               <a href="" class="action icon-add gray"></a>
-            <a href="" class="action icon-cajita gray"></a>
-            <a href="" class="action icon-like gray"></a>
-            </span>            
-         </li>
+         
+       
         
       </ul>
    </div>
@@ -230,48 +172,24 @@
 		<p class="name">Girl</p>
 		<p class="author">Pharrel Williams</p>
 	</article>
-	<article class="song">
-		<figure class="image">
-			<img src="img/songs/test.jpg" alt="Girl Pharrel Williams" width="128" height="128">
-		</figure>
-		<p class="name">Girl</p>
-		<p class="author">Pharrel Williams</p>
-	</article>
-	<article class="song">
-		<figure class="image">
-			<img src="img/songs/test.jpg" alt="Girl Pharrel Williams" width="128" height="128">
-		</figure>
-		<p class="name">Girl</p>
-		<p class="author">Pharrel Williams</p>
-	</article>
-	<article class="song">
-		<figure class="image">
-			<img src="img/songs/test.jpg" alt="Girl Pharrel Williams" width="128" height="128">
-		</figure>
-		<p class="name">Girl</p>
-		<p class="author">Pharrel Williams</p>
-	</article>
-	<article class="song">
-		<figure class="image">
-			<img src="img/songs/test.jpg" alt="Girl Pharrel Williams" width="128" height="128">
-		</figure>
-		<p class="name">Girl</p>
-		<p class="author">Pharrel Williams</p>
-	</article>
-	<article class="song">
-		<figure class="image">
-			<img src="img/songs/test.jpg" alt="Girl Pharrel Williams" width="128" height="128">
-		</figure>
-		<p class="name">Girl</p>
-		<p class="author">Pharrel Williams</p>
-	</article>
-	<article class="song">
-		<figure class="image">
-			<img src="img/songs/test.jpg" alt="Girl Pharrel Williams" width="128" height="128">
-		</figure>
-		<p class="name">Girl</p>
-		<p class="author">Pharrel Williams</p>
-	</article>
+	
+	
 </section>
+<!--agreamos templante de handlebars-->
+<<script id="song-template" type="text/x-handlerbars-template">
+     <span>
+        {{name}} -    {{author}}
+      </span>
+      <span class="right">
+        <a href="" class="action icon-add gray"></a>
+        <a href="" class="action icon-cajita gray"></a>
+        <a href="" class="action icon-like gray"></a>
+      </span>  
+</script>
+<script src="lib/underscore.js"></script>
+<script src="lib/jquery-1.11.1.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="lib/handlebars.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
